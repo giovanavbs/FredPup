@@ -38,9 +38,10 @@
             // 
             // btnNovo
             // 
-            btnNovo.Location = new Point(235, 140);
+            btnNovo.Location = new Point(19, 89);
+            btnNovo.Margin = new Padding(3, 2, 3, 2);
             btnNovo.Name = "btnNovo";
-            btnNovo.Size = new Size(129, 105);
+            btnNovo.Size = new Size(113, 79);
             btnNovo.TabIndex = 0;
             btnNovo.Text = "CADASTRAR NOVO ANIMAL";
             btnNovo.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@
             // 
             // btnConsulta
             // 
-            btnConsulta.Location = new Point(441, 261);
+            btnConsulta.Location = new Point(169, 180);
+            btnConsulta.Margin = new Padding(3, 2, 3, 2);
             btnConsulta.Name = "btnConsulta";
-            btnConsulta.Size = new Size(122, 103);
+            btnConsulta.Size = new Size(107, 77);
             btnConsulta.TabIndex = 1;
             btnConsulta.Text = "REGISTRAR INFORMAÇÕES DE CONSULTA";
             btnConsulta.UseVisualStyleBackColor = true;
@@ -58,9 +60,10 @@
             // 
             // btnExame
             // 
-            btnExame.Location = new Point(235, 261);
+            btnExame.Location = new Point(19, 180);
+            btnExame.Margin = new Padding(3, 2, 3, 2);
             btnExame.Name = "btnExame";
-            btnExame.Size = new Size(129, 103);
+            btnExame.Size = new Size(113, 77);
             btnExame.TabIndex = 2;
             btnExame.Text = "REGISTRAR INFORMAÇÕES DE EXAME";
             btnExame.UseVisualStyleBackColor = true;
@@ -69,26 +72,27 @@
             // lblInicio1
             // 
             lblInicio1.AutoSize = true;
-            lblInicio1.Location = new Point(286, 51);
+            lblInicio1.Location = new Point(9, 9);
             lblInicio1.Name = "lblInicio1";
-            lblInicio1.Size = new Size(165, 20);
+            lblInicio1.Size = new Size(130, 15);
             lblInicio1.TabIndex = 3;
             lblInicio1.Text = "Bem-Vindo ao Sistema!";
             // 
             // lblInicio2
             // 
             lblInicio2.AutoSize = true;
-            lblInicio2.Location = new Point(287, 85);
+            lblInicio2.Location = new Point(70, 56);
             lblInicio2.Name = "lblInicio2";
-            lblInicio2.Size = new Size(214, 20);
+            lblInicio2.Size = new Size(165, 15);
             lblInicio2.TabIndex = 4;
             lblInicio2.Text = "Qual operação deseja realizar?";
             // 
             // btnAgendar
             // 
-            btnAgendar.Location = new Point(441, 140);
+            btnAgendar.Location = new Point(169, 89);
+            btnAgendar.Margin = new Padding(3, 2, 3, 2);
             btnAgendar.Name = "btnAgendar";
-            btnAgendar.Size = new Size(122, 105);
+            btnAgendar.Size = new Size(107, 79);
             btnAgendar.TabIndex = 5;
             btnAgendar.Text = "AGENDAR NOVA CONSULTA OU EXAME";
             btnAgendar.UseVisualStyleBackColor = true;
@@ -96,15 +100,16 @@
             // 
             // Inicio
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(310, 301);
             Controls.Add(btnAgendar);
             Controls.Add(lblInicio2);
             Controls.Add(lblInicio1);
             Controls.Add(btnExame);
             Controls.Add(btnConsulta);
             Controls.Add(btnNovo);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Inicio";
             Text = "inicio";
             ResumeLayout(false);

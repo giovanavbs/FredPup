@@ -40,9 +40,10 @@
             // 
             // btnConsulta
             // 
-            btnConsulta.Location = new Point(282, 64);
+            btnConsulta.Location = new Point(42, 354);
+            btnConsulta.Margin = new Padding(3, 2, 3, 2);
             btnConsulta.Name = "btnConsulta";
-            btnConsulta.Size = new Size(181, 29);
+            btnConsulta.Size = new Size(158, 22);
             btnConsulta.TabIndex = 0;
             btnConsulta.Text = "AGENDAR CONSULTA";
             btnConsulta.UseVisualStyleBackColor = true;
@@ -50,9 +51,10 @@
             // 
             // btnExame
             // 
-            btnExame.Location = new Point(486, 64);
+            btnExame.Location = new Point(220, 354);
+            btnExame.Margin = new Padding(3, 2, 3, 2);
             btnExame.Name = "btnExame";
-            btnExame.Size = new Size(144, 29);
+            btnExame.Size = new Size(126, 22);
             btnExame.TabIndex = 1;
             btnExame.Text = "AGENDAR EXAME";
             btnExame.UseVisualStyleBackColor = true;
@@ -61,52 +63,55 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(369, 20);
+            label1.Location = new Point(167, 22);
             label1.Name = "label1";
-            label1.Size = new Size(211, 20);
+            label1.Size = new Size(85, 15);
             label1.TabIndex = 2;
-            label1.Text = "Clique no que deseja agendar!";
+            label1.Text = "Escolha a data!";
             // 
             // txtPesquisar
             // 
-            txtPesquisar.Location = new Point(322, 118);
+            txtPesquisar.Location = new Point(258, 86);
+            txtPesquisar.Margin = new Padding(3, 2, 3, 2);
             txtPesquisar.Name = "txtPesquisar";
-            txtPesquisar.Size = new Size(141, 27);
+            txtPesquisar.Size = new Size(124, 23);
             txtPesquisar.TabIndex = 25;
             txtPesquisar.TextChanged += txtPesquisar_TextChanged;
             // 
             // lblPesquisar
             // 
             lblPesquisar.AutoSize = true;
-            lblPesquisar.Location = new Point(12, 125);
+            lblPesquisar.Location = new Point(10, 94);
             lblPesquisar.Name = "lblPesquisar";
-            lblPesquisar.Size = new Size(304, 20);
+            lblPesquisar.Size = new Size(242, 15);
             lblPesquisar.TabIndex = 24;
             lblPesquisar.Text = "Pesquise os animais cadastrados e selecione:";
             // 
             // dgv_Animais
             // 
             dgv_Animais.ColumnHeadersHeight = 29;
-            dgv_Animais.Location = new Point(12, 165);
+            dgv_Animais.Location = new Point(10, 124);
+            dgv_Animais.Margin = new Padding(3, 2, 3, 2);
             dgv_Animais.Name = "dgv_Animais";
             dgv_Animais.RowHeadersWidth = 51;
-            dgv_Animais.Size = new Size(451, 264);
+            dgv_Animais.Size = new Size(395, 198);
             dgv_Animais.TabIndex = 39;
             dgv_Animais.CellContentClick += dgv_Animais_CellContentClick;
             // 
             // dtpData
             // 
-            dtpData.Location = new Point(584, 274);
+            dtpData.Location = new Point(60, 52);
+            dtpData.Margin = new Padding(3, 2, 3, 2);
             dtpData.Name = "dtpData";
-            dtpData.Size = new Size(326, 27);
+            dtpData.Size = new Size(286, 23);
             dtpData.TabIndex = 41;
             dtpData.ValueChanged += dtpData_ValueChanged;
             // 
             // Agendar
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1003, 552);
+            ClientSize = new Size(434, 411);
             Controls.Add(dtpData);
             Controls.Add(dgv_Animais);
             Controls.Add(txtPesquisar);
@@ -114,6 +119,7 @@
             Controls.Add(label1);
             Controls.Add(btnExame);
             Controls.Add(btnConsulta);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Agendar";
             Text = "Agendar";
             Load += Agendar_Load;

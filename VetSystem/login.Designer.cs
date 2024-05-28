@@ -41,10 +41,10 @@
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(135, 224);
-            txtEmail.Margin = new Padding(4, 5, 4, 5);
+            txtEmail.Location = new Point(118, 168);
+            txtEmail.Margin = new Padding(4, 4, 4, 4);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(132, 27);
+            txtEmail.Size = new Size(116, 23);
             txtEmail.TabIndex = 0;
             // 
             // contextMenuStrip1
@@ -55,10 +55,10 @@
             // 
             // btnLogar
             // 
-            btnLogar.Location = new Point(97, 359);
-            btnLogar.Margin = new Padding(4, 5, 4, 5);
+            btnLogar.Location = new Point(85, 269);
+            btnLogar.Margin = new Padding(4, 4, 4, 4);
             btnLogar.Name = "btnLogar";
-            btnLogar.Size = new Size(113, 51);
+            btnLogar.Size = new Size(99, 38);
             btnLogar.TabIndex = 2;
             btnLogar.Text = "LOGIN";
             btnLogar.UseVisualStyleBackColor = true;
@@ -67,54 +67,55 @@
             // lblEmail
             // 
             lblEmail.AutoSize = true;
-            lblEmail.Location = new Point(52, 231);
+            lblEmail.Location = new Point(46, 173);
             lblEmail.Margin = new Padding(4, 0, 4, 0);
             lblEmail.Name = "lblEmail";
-            lblEmail.Size = new Size(51, 20);
+            lblEmail.Size = new Size(41, 15);
             lblEmail.TabIndex = 4;
             lblEmail.Text = "EMAIL";
             // 
             // lblSenha
             // 
             lblSenha.AutoSize = true;
-            lblSenha.Location = new Point(52, 304);
+            lblSenha.Location = new Point(46, 228);
             lblSenha.Margin = new Padding(4, 0, 4, 0);
             lblSenha.Name = "lblSenha";
-            lblSenha.Size = new Size(57, 20);
+            lblSenha.Size = new Size(45, 15);
             lblSenha.TabIndex = 5;
             lblSenha.Text = "SENHA";
             // 
             // txtSenha
             // 
-            txtSenha.Location = new Point(135, 297);
-            txtSenha.Margin = new Padding(4, 5, 4, 5);
+            txtSenha.Location = new Point(118, 223);
+            txtSenha.Margin = new Padding(4, 4, 4, 4);
             txtSenha.Name = "txtSenha";
             txtSenha.PasswordChar = '*';
-            txtSenha.Size = new Size(132, 27);
+            txtSenha.Size = new Size(116, 23);
             txtSenha.TabIndex = 6;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.vetlogo;
-            pictureBox1.Location = new Point(73, 12);
+            pictureBox1.Location = new Point(64, 9);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(163, 197);
+            pictureBox1.Size = new Size(143, 148);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
             // Login
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(516, 566);
+            ClientSize = new Size(284, 361);
             Controls.Add(pictureBox1);
             Controls.Add(txtSenha);
             Controls.Add(lblSenha);
             Controls.Add(lblEmail);
             Controls.Add(btnLogar);
             Controls.Add(txtEmail);
-            Margin = new Padding(4, 5, 4, 5);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";

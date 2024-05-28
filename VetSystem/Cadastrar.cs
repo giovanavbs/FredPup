@@ -227,7 +227,7 @@ namespace VetSystem
             {
                 MySqlCommand cmd = new MySqlCommand();
                 cmd.Connection = con.ConnectarBD();
-                cmd.CommandText = "update tbAnimal set nome=@nome, raca=@raca, peso=@peso, sexo=@sexo, especie=@especie, tutor=@tutor, telefone=@telefone, email=@email where CodPet = " + txtCodPet.Text;
+                cmd.CommandText = "update tbAnimal set nome=@nome, raca=@raca, peso=@peso, sexo=@sexo, especie=@especie, tutor=@tutor, telefone=@telefone, email=@email, imagem=@imagem where CodPet = " + txtCodPet.Text;
                 cmd.Parameters.Add("@nome", MySqlDbType.VarChar).Value = txtNome.Text;
                 cmd.Parameters.Add("@raca", MySqlDbType.VarChar).Value = txtRaca.Text;
                 cmd.Parameters.Add("@peso", MySqlDbType.VarChar).Value = txtPeso.Text;
@@ -236,6 +236,7 @@ namespace VetSystem
                 cmd.Parameters.Add("@tutor", MySqlDbType.VarChar).Value = txtTutor.Text;
                 cmd.Parameters.Add("@telefone", MySqlDbType.VarChar).Value = txtTelefone.Text;
                 cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = txtEmail.Text;
+                cmd.Parameters.Add("@imagem", MySqlDbType.VarChar).Value = picImage.ImageLocation;
                 cmd.ExecuteNonQuery();
 
                 MessageBox.Show("Dados Alterados com sucesso");
@@ -265,7 +266,7 @@ namespace VetSystem
                 {
                     MySqlCommand cmd = new MySqlCommand();
                     con.ConnectarBD();
-                    cmd.CommandText = "delete from tbAnimal where CodPet= " + txtCodPet.Text;
+                    cmd.CommandText = "delete from tbAnimal where CodPet= " +txtCodPet.Text;
                     cmd.Connection = con.ConnectarBD();
                     cmd.ExecuteNonQuery();
 
