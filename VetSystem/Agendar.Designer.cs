@@ -63,6 +63,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Location = new Point(167, 22);
             label1.Name = "label1";
             label1.Size = new Size(85, 15);
@@ -81,6 +82,7 @@
             // lblPesquisar
             // 
             lblPesquisar.AutoSize = true;
+            lblPesquisar.BackColor = Color.Transparent;
             lblPesquisar.Location = new Point(10, 94);
             lblPesquisar.Name = "lblPesquisar";
             lblPesquisar.Size = new Size(242, 15);
@@ -111,6 +113,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.background;
             ClientSize = new Size(434, 411);
             Controls.Add(dtpData);
             Controls.Add(dgv_Animais);
@@ -121,6 +124,7 @@
             Controls.Add(btnConsulta);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Agendar";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Agendar";
             Load += Agendar_Load;
             ((System.ComponentModel.ISupportInitialize)dgv_Animais).EndInit();

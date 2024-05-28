@@ -72,6 +72,7 @@
             // lblInicio1
             // 
             lblInicio1.AutoSize = true;
+            lblInicio1.BackColor = Color.Transparent;
             lblInicio1.Location = new Point(9, 9);
             lblInicio1.Name = "lblInicio1";
             lblInicio1.Size = new Size(130, 15);
@@ -81,6 +82,7 @@
             // lblInicio2
             // 
             lblInicio2.AutoSize = true;
+            lblInicio2.BackColor = Color.Transparent;
             lblInicio2.Location = new Point(70, 56);
             lblInicio2.Name = "lblInicio2";
             lblInicio2.Size = new Size(165, 15);
@@ -102,6 +104,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.background;
             ClientSize = new Size(310, 301);
             Controls.Add(btnAgendar);
             Controls.Add(lblInicio2);
@@ -111,6 +114,7 @@
             Controls.Add(btnNovo);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Inicio";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "inicio";
             ResumeLayout(false);
             PerformLayout();

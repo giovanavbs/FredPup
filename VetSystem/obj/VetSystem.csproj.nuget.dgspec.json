@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\3ds\\Source\\Repos\\FredPup\\VetSystem\\VetSystem.csproj": {}
+    "C:\\Users\\3ds\\source\\repos\\FredPup\\VetSystem\\VetSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\3ds\\Source\\Repos\\FredPup\\VetSystem\\VetSystem.csproj": {
+    "C:\\Users\\3ds\\source\\repos\\FredPup\\VetSystem\\VetSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\3ds\\Source\\Repos\\FredPup\\VetSystem\\VetSystem.csproj",
+        "projectUniqueName": "C:\\Users\\3ds\\source\\repos\\FredPup\\VetSystem\\VetSystem.csproj",
         "projectName": "VetSystem",
-        "projectPath": "C:\\Users\\3ds\\Source\\Repos\\FredPup\\VetSystem\\VetSystem.csproj",
+        "projectPath": "C:\\Users\\3ds\\source\\repos\\FredPup\\VetSystem\\VetSystem.csproj",
         "packagesPath": "C:\\Users\\3ds\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\3ds\\Source\\Repos\\FredPup\\VetSystem\\obj\\",
+        "outputPath": "C:\\Users\\3ds\\source\\repos\\FredPup\\VetSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -60,6 +60,7 @@
             // lblNome
             // 
             lblNome.AutoSize = true;
+            lblNome.BackColor = Color.Transparent;
             lblNome.Location = new Point(204, 14);
             lblNome.Name = "lblNome";
             lblNome.Size = new Size(42, 15);
@@ -69,6 +70,7 @@
             // lblRaca
             // 
             lblRaca.AutoSize = true;
+            lblRaca.BackColor = Color.Transparent;
             lblRaca.Location = new Point(208, 47);
             lblRaca.Name = "lblRaca";
             lblRaca.Size = new Size(38, 15);
@@ -78,6 +80,7 @@
             // lblPeso
             // 
             lblPeso.AutoSize = true;
+            lblPeso.BackColor = Color.Transparent;
             lblPeso.Location = new Point(208, 86);
             lblPeso.Name = "lblPeso";
             lblPeso.Size = new Size(35, 15);
@@ -87,6 +90,7 @@
             // lblSexo
             // 
             lblSexo.AutoSize = true;
+            lblSexo.BackColor = Color.Transparent;
             lblSexo.Location = new Point(210, 118);
             lblSexo.Name = "lblSexo";
             lblSexo.Size = new Size(35, 15);
@@ -96,6 +100,7 @@
             // lblTutor
             // 
             lblTutor.AutoSize = true;
+            lblTutor.BackColor = Color.Transparent;
             lblTutor.Location = new Point(478, 17);
             lblTutor.Name = "lblTutor";
             lblTutor.Size = new Size(42, 15);
@@ -105,6 +110,7 @@
             // lblTelefone
             // 
             lblTelefone.AutoSize = true;
+            lblTelefone.BackColor = Color.Transparent;
             lblTelefone.Location = new Point(478, 51);
             lblTelefone.Name = "lblTelefone";
             lblTelefone.Size = new Size(61, 15);
@@ -114,6 +120,7 @@
             // lblEspecie
             // 
             lblEspecie.AutoSize = true;
+            lblEspecie.BackColor = Color.Transparent;
             lblEspecie.Location = new Point(202, 157);
             lblEspecie.Name = "lblEspecie";
             lblEspecie.Size = new Size(49, 15);
@@ -123,6 +130,7 @@
             // lblEmail
             // 
             lblEmail.AutoSize = true;
+            lblEmail.BackColor = Color.Transparent;
             lblEmail.Location = new Point(480, 81);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(41, 15);
@@ -143,7 +151,7 @@
             btnImage.Location = new Point(60, 150);
             btnImage.Margin = new Padding(3, 2, 3, 2);
             btnImage.Name = "btnImage";
-            btnImage.Size = new Size(108, 22);
+            btnImage.Size = new Size(108, 27);
             btnImage.TabIndex = 9;
             btnImage.Text = "carregar..";
             btnImage.UseVisualStyleBackColor = true;
@@ -216,19 +224,20 @@
             // dgv_Animais
             // 
             dgv_Animais.ColumnHeadersHeight = 29;
-            dgv_Animais.Location = new Point(38, 232);
+            dgv_Animais.Location = new Point(38, 238);
             dgv_Animais.Margin = new Padding(3, 2, 3, 2);
             dgv_Animais.Name = "dgv_Animais";
             dgv_Animais.RowHeadersWidth = 51;
-            dgv_Animais.Size = new Size(556, 166);
+            dgv_Animais.Size = new Size(556, 203);
             dgv_Animais.TabIndex = 25;
+            dgv_Animais.CellMouseDoubleClick += dgv_Animais_CellMouseDoubleClick;
             // 
             // btnNovo
             // 
-            btnNovo.Location = new Point(635, 269);
+            btnNovo.Location = new Point(647, 288);
             btnNovo.Margin = new Padding(3, 2, 3, 2);
             btnNovo.Name = "btnNovo";
-            btnNovo.Size = new Size(82, 22);
+            btnNovo.Size = new Size(98, 33);
             btnNovo.TabIndex = 19;
             btnNovo.Text = "NOVO";
             btnNovo.UseVisualStyleBackColor = true;
@@ -236,10 +245,10 @@
             // 
             // btnAlterar
             // 
-            btnAlterar.Location = new Point(635, 308);
+            btnAlterar.Location = new Point(647, 337);
             btnAlterar.Margin = new Padding(3, 2, 3, 2);
             btnAlterar.Name = "btnAlterar";
-            btnAlterar.Size = new Size(82, 22);
+            btnAlterar.Size = new Size(98, 33);
             btnAlterar.TabIndex = 20;
             btnAlterar.Text = "ALTERAR";
             btnAlterar.UseVisualStyleBackColor = true;
@@ -247,10 +256,10 @@
             // 
             // btnExcluir
             // 
-            btnExcluir.Location = new Point(635, 345);
+            btnExcluir.Location = new Point(647, 384);
             btnExcluir.Margin = new Padding(3, 2, 3, 2);
             btnExcluir.Name = "btnExcluir";
-            btnExcluir.Size = new Size(82, 22);
+            btnExcluir.Size = new Size(98, 33);
             btnExcluir.TabIndex = 21;
             btnExcluir.Text = "EXCLUIR";
             btnExcluir.UseVisualStyleBackColor = true;
@@ -259,6 +268,7 @@
             // lblPesquisar
             // 
             lblPesquisar.AutoSize = true;
+            lblPesquisar.BackColor = Color.Transparent;
             lblPesquisar.Location = new Point(38, 201);
             lblPesquisar.Name = "lblPesquisar";
             lblPesquisar.Size = new Size(60, 15);
@@ -276,7 +286,7 @@
             // 
             // txtCodPet
             // 
-            txtCodPet.Location = new Point(-3, 390);
+            txtCodPet.Location = new Point(-5, 444);
             txtCodPet.Margin = new Padding(3, 2, 3, 2);
             txtCodPet.Name = "txtCodPet";
             txtCodPet.ReadOnly = true;
@@ -287,7 +297,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(770, 407);
+            BackgroundImage = Properties.Resources.background;
+            ClientSize = new Size(784, 461);
             Controls.Add(txtCodPet);
             Controls.Add(txtPesquisar);
             Controls.Add(lblPesquisar);
@@ -315,6 +326,7 @@
             Controls.Add(lblNome);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Cadastrar";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Cadastrar";
             Load += Cadastrar_Load;
             ((System.ComponentModel.ISupportInitialize)picImage).EndInit();

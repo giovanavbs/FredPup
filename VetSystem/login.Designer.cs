@@ -28,35 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             txtEmail = new TextBox();
-            contextMenuStrip1 = new ContextMenuStrip(components);
             btnLogar = new Button();
             lblEmail = new Label();
             lblSenha = new Label();
             txtSenha = new TextBox();
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(118, 168);
-            txtEmail.Margin = new Padding(4, 4, 4, 4);
+            txtEmail.Location = new Point(118, 170);
+            txtEmail.Margin = new Padding(4);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(116, 23);
             txtEmail.TabIndex = 0;
             // 
-            // contextMenuStrip1
-            // 
-            contextMenuStrip1.ImageScalingSize = new Size(20, 20);
-            contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new Size(61, 4);
-            // 
             // btnLogar
             // 
             btnLogar.Location = new Point(85, 269);
-            btnLogar.Margin = new Padding(4, 4, 4, 4);
+            btnLogar.Margin = new Padding(4);
             btnLogar.Name = "btnLogar";
             btnLogar.Size = new Size(99, 38);
             btnLogar.TabIndex = 2;
@@ -67,6 +57,7 @@
             // lblEmail
             // 
             lblEmail.AutoSize = true;
+            lblEmail.BackColor = Color.Transparent;
             lblEmail.Location = new Point(46, 173);
             lblEmail.Margin = new Padding(4, 0, 4, 0);
             lblEmail.Name = "lblEmail";
@@ -77,6 +68,7 @@
             // lblSenha
             // 
             lblSenha.AutoSize = true;
+            lblSenha.BackColor = Color.Transparent;
             lblSenha.Location = new Point(46, 228);
             lblSenha.Margin = new Padding(4, 0, 4, 0);
             lblSenha.Name = "lblSenha";
@@ -87,40 +79,28 @@
             // txtSenha
             // 
             txtSenha.Location = new Point(118, 223);
-            txtSenha.Margin = new Padding(4, 4, 4, 4);
+            txtSenha.Margin = new Padding(4);
             txtSenha.Name = "txtSenha";
             txtSenha.PasswordChar = '*';
             txtSenha.Size = new Size(116, 23);
             txtSenha.TabIndex = 6;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.vetlogo;
-            pictureBox1.Location = new Point(64, 9);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(143, 148);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 7;
-            pictureBox1.TabStop = false;
-            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.WhatsApp_Image_2024_05_28_at_14_49_10;
             ClientSize = new Size(284, 361);
-            Controls.Add(pictureBox1);
             Controls.Add(txtSenha);
             Controls.Add(lblSenha);
             Controls.Add(lblEmail);
             Controls.Add(btnLogar);
             Controls.Add(txtEmail);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             Load += Login_Load_2;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -128,11 +108,9 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button btnLogar;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblSenha;
         private System.Windows.Forms.TextBox txtSenha;
-        private PictureBox pictureBox1;
     }
 }
