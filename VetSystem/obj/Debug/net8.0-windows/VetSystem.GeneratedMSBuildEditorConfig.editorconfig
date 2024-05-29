@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VetSystem
-build_property.ProjectDir = C:\Users\3ds\source\repos\FredPup\VetSystem\
+build_property.ProjectDir = C:\Users\3ds\Source\Repos\FredPup\VetSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -94,9 +94,9 @@ C:\Users\3ds\Source\Repos\FredPup\VetSystem\obj\Debug\net8.0-windows\VetSystem.A
 C:\Users\3ds\Source\Repos\FredPup\VetSystem\obj\Debug\net8.0-windows\VetSystem.AssemblyInfo.cs
 C:\Users\3ds\Source\Repos\FredPup\VetSystem\obj\Debug\net8.0-windows\VetSystem.csproj.CoreCompileInputs.cache
 C:\Users\3ds\Source\Repos\FredPup\VetSystem\obj\Debug\net8.0-windows\VetSystem.sourcelink.json
-C:\Users\3ds\Source\Repos\FredPup\VetSystem\obj\Debug\net8.0-windows\VetSystem.csproj.Up2Date
 C:\Users\3ds\Source\Repos\FredPup\VetSystem\obj\Debug\net8.0-windows\VetSystem.dll
 C:\Users\3ds\Source\Repos\FredPup\VetSystem\obj\Debug\net8.0-windows\refint\VetSystem.dll
 C:\Users\3ds\Source\Repos\FredPup\VetSystem\obj\Debug\net8.0-windows\VetSystem.pdb
 C:\Users\3ds\Source\Repos\FredPup\VetSystem\obj\Debug\net8.0-windows\VetSystem.genruntimeconfig.cache
 C:\Users\3ds\Source\Repos\FredPup\VetSystem\obj\Debug\net8.0-windows\ref\VetSystem.dll
+C:\Users\3ds\Source\Repos\FredPup\VetSystem\obj\Debug\net8.0-windows\VetSystem.csproj.CopyComplete
