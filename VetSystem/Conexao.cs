@@ -11,7 +11,7 @@ namespace VetSystem
 {
     class Conexao
     {
-        MySqlConnection con = new MySqlConnection("Data Source=localhost;Initial Catalog=FredPup;user=root;pwd=12345678;");
+        MySqlConnection con = new MySqlConnection("Data Source=localhost;Initial Catalog=FredPup;user=root;pwd=1995;");
 
         public static string msg;
 

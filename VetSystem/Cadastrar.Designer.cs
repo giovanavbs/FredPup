@@ -61,9 +61,9 @@
             // 
             lblNome.AutoSize = true;
             lblNome.BackColor = Color.Transparent;
-            lblNome.Location = new Point(204, 14);
+            lblNome.Location = new Point(272, 32);
             lblNome.Name = "lblNome";
-            lblNome.Size = new Size(42, 15);
+            lblNome.Size = new Size(52, 20);
             lblNome.TabIndex = 0;
             lblNome.Text = "NOME";
             // 
@@ -71,9 +71,9 @@
             // 
             lblRaca.AutoSize = true;
             lblRaca.BackColor = Color.Transparent;
-            lblRaca.Location = new Point(208, 47);
+            lblRaca.Location = new Point(277, 76);
             lblRaca.Name = "lblRaca";
-            lblRaca.Size = new Size(38, 15);
+            lblRaca.Size = new Size(47, 20);
             lblRaca.TabIndex = 1;
             lblRaca.Text = "RAÇA";
             // 
@@ -81,9 +81,9 @@
             // 
             lblPeso.AutoSize = true;
             lblPeso.BackColor = Color.Transparent;
-            lblPeso.Location = new Point(208, 86);
+            lblPeso.Location = new Point(277, 128);
             lblPeso.Name = "lblPeso";
-            lblPeso.Size = new Size(35, 15);
+            lblPeso.Size = new Size(44, 20);
             lblPeso.TabIndex = 2;
             lblPeso.Text = "PESO";
             // 
@@ -91,9 +91,9 @@
             // 
             lblSexo.AutoSize = true;
             lblSexo.BackColor = Color.Transparent;
-            lblSexo.Location = new Point(210, 118);
+            lblSexo.Location = new Point(279, 170);
             lblSexo.Name = "lblSexo";
-            lblSexo.Size = new Size(35, 15);
+            lblSexo.Size = new Size(45, 20);
             lblSexo.TabIndex = 3;
             lblSexo.Text = "SEXO";
             // 
@@ -101,9 +101,9 @@
             // 
             lblTutor.AutoSize = true;
             lblTutor.BackColor = Color.Transparent;
-            lblTutor.Location = new Point(478, 17);
+            lblTutor.Location = new Point(585, 36);
             lblTutor.Name = "lblTutor";
-            lblTutor.Size = new Size(42, 15);
+            lblTutor.Size = new Size(54, 20);
             lblTutor.TabIndex = 4;
             lblTutor.Text = "TUTOR";
             // 
@@ -111,9 +111,9 @@
             // 
             lblTelefone.AutoSize = true;
             lblTelefone.BackColor = Color.Transparent;
-            lblTelefone.Location = new Point(478, 51);
+            lblTelefone.Location = new Point(585, 81);
             lblTelefone.Name = "lblTelefone";
-            lblTelefone.Size = new Size(61, 15);
+            lblTelefone.Size = new Size(77, 20);
             lblTelefone.TabIndex = 5;
             lblTelefone.Text = "TELEFONE";
             // 
@@ -121,9 +121,9 @@
             // 
             lblEspecie.AutoSize = true;
             lblEspecie.BackColor = Color.Transparent;
-            lblEspecie.Location = new Point(202, 157);
+            lblEspecie.Location = new Point(270, 222);
             lblEspecie.Name = "lblEspecie";
-            lblEspecie.Size = new Size(49, 15);
+            lblEspecie.Size = new Size(62, 20);
             lblEspecie.TabIndex = 6;
             lblEspecie.Text = "ESPECIE";
             // 
@@ -131,27 +131,25 @@
             // 
             lblEmail.AutoSize = true;
             lblEmail.BackColor = Color.Transparent;
-            lblEmail.Location = new Point(480, 81);
+            lblEmail.Location = new Point(588, 121);
             lblEmail.Name = "lblEmail";
-            lblEmail.Size = new Size(41, 15);
+            lblEmail.Size = new Size(51, 20);
             lblEmail.TabIndex = 7;
             lblEmail.Text = "EMAIL";
             // 
             // picImage
             // 
-            picImage.Location = new Point(60, 28);
-            picImage.Margin = new Padding(3, 2, 3, 2);
+            picImage.Location = new Point(74, 29);
             picImage.Name = "picImage";
-            picImage.Size = new Size(108, 117);
+            picImage.Size = new Size(123, 156);
             picImage.TabIndex = 8;
             picImage.TabStop = false;
             // 
             // btnImage
             // 
-            btnImage.Location = new Point(60, 150);
-            btnImage.Margin = new Padding(3, 2, 3, 2);
+            btnImage.Location = new Point(74, 192);
             btnImage.Name = "btnImage";
-            btnImage.Size = new Size(108, 27);
+            btnImage.Size = new Size(123, 36);
             btnImage.TabIndex = 9;
             btnImage.Text = "carregar..";
             btnImage.UseVisualStyleBackColor = true;
@@ -159,85 +157,75 @@
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(269, 9);
-            txtNome.Margin = new Padding(3, 2, 3, 2);
+            txtNome.Location = new Point(346, 25);
             txtNome.Name = "txtNome";
-            txtNome.Size = new Size(110, 23);
+            txtNome.Size = new Size(125, 27);
             txtNome.TabIndex = 10;
             // 
             // txtSexo
             // 
-            txtSexo.Location = new Point(269, 116);
-            txtSexo.Margin = new Padding(3, 2, 3, 2);
+            txtSexo.Location = new Point(346, 168);
             txtSexo.Name = "txtSexo";
-            txtSexo.Size = new Size(110, 23);
+            txtSexo.Size = new Size(125, 27);
             txtSexo.TabIndex = 11;
             // 
             // txtPeso
             // 
-            txtPeso.Location = new Point(269, 81);
-            txtPeso.Margin = new Padding(3, 2, 3, 2);
+            txtPeso.Location = new Point(346, 121);
             txtPeso.Name = "txtPeso";
-            txtPeso.Size = new Size(110, 23);
+            txtPeso.Size = new Size(125, 27);
             txtPeso.TabIndex = 12;
             // 
             // txtRaca
             // 
-            txtRaca.Location = new Point(269, 42);
-            txtRaca.Margin = new Padding(3, 2, 3, 2);
+            txtRaca.Location = new Point(346, 69);
             txtRaca.Name = "txtRaca";
-            txtRaca.Size = new Size(110, 23);
+            txtRaca.Size = new Size(125, 27);
             txtRaca.TabIndex = 13;
             // 
             // txtEspecie
             // 
-            txtEspecie.Location = new Point(269, 154);
-            txtEspecie.Margin = new Padding(3, 2, 3, 2);
+            txtEspecie.Location = new Point(346, 218);
             txtEspecie.Name = "txtEspecie";
-            txtEspecie.Size = new Size(110, 23);
+            txtEspecie.Size = new Size(125, 27);
             txtEspecie.TabIndex = 14;
             // 
             // txtTutor
             // 
-            txtTutor.Location = new Point(558, 12);
-            txtTutor.Margin = new Padding(3, 2, 3, 2);
+            txtTutor.Location = new Point(677, 29);
             txtTutor.Name = "txtTutor";
-            txtTutor.Size = new Size(110, 23);
+            txtTutor.Size = new Size(125, 27);
             txtTutor.TabIndex = 15;
             // 
             // txtTelefone
             // 
-            txtTelefone.Location = new Point(558, 47);
-            txtTelefone.Margin = new Padding(3, 2, 3, 2);
+            txtTelefone.Location = new Point(677, 76);
             txtTelefone.Name = "txtTelefone";
-            txtTelefone.Size = new Size(110, 23);
+            txtTelefone.Size = new Size(125, 27);
             txtTelefone.TabIndex = 16;
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(558, 81);
-            txtEmail.Margin = new Padding(3, 2, 3, 2);
+            txtEmail.Location = new Point(677, 121);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(110, 23);
+            txtEmail.Size = new Size(125, 27);
             txtEmail.TabIndex = 17;
             // 
             // dgv_Animais
             // 
             dgv_Animais.ColumnHeadersHeight = 29;
-            dgv_Animais.Location = new Point(38, 238);
-            dgv_Animais.Margin = new Padding(3, 2, 3, 2);
+            dgv_Animais.Location = new Point(43, 298);
             dgv_Animais.Name = "dgv_Animais";
             dgv_Animais.RowHeadersWidth = 51;
-            dgv_Animais.Size = new Size(556, 203);
+            dgv_Animais.Size = new Size(658, 224);
             dgv_Animais.TabIndex = 25;
             dgv_Animais.CellMouseDoubleClick += dgv_Animais_CellMouseDoubleClick;
             // 
             // btnNovo
             // 
-            btnNovo.Location = new Point(647, 288);
-            btnNovo.Margin = new Padding(3, 2, 3, 2);
+            btnNovo.Location = new Point(741, 319);
             btnNovo.Name = "btnNovo";
-            btnNovo.Size = new Size(98, 33);
+            btnNovo.Size = new Size(112, 44);
             btnNovo.TabIndex = 19;
             btnNovo.Text = "NOVO";
             btnNovo.UseVisualStyleBackColor = true;
@@ -245,10 +233,9 @@
             // 
             // btnAlterar
             // 
-            btnAlterar.Location = new Point(647, 337);
-            btnAlterar.Margin = new Padding(3, 2, 3, 2);
+            btnAlterar.Location = new Point(741, 384);
             btnAlterar.Name = "btnAlterar";
-            btnAlterar.Size = new Size(98, 33);
+            btnAlterar.Size = new Size(112, 44);
             btnAlterar.TabIndex = 20;
             btnAlterar.Text = "ALTERAR";
             btnAlterar.UseVisualStyleBackColor = true;
@@ -256,10 +243,9 @@
             // 
             // btnExcluir
             // 
-            btnExcluir.Location = new Point(647, 384);
-            btnExcluir.Margin = new Padding(3, 2, 3, 2);
+            btnExcluir.Location = new Point(741, 447);
             btnExcluir.Name = "btnExcluir";
-            btnExcluir.Size = new Size(98, 33);
+            btnExcluir.Size = new Size(112, 44);
             btnExcluir.TabIndex = 21;
             btnExcluir.Text = "EXCLUIR";
             btnExcluir.UseVisualStyleBackColor = true;
@@ -269,36 +255,34 @@
             // 
             lblPesquisar.AutoSize = true;
             lblPesquisar.BackColor = Color.Transparent;
-            lblPesquisar.Location = new Point(38, 201);
+            lblPesquisar.Location = new Point(52, 259);
             lblPesquisar.Name = "lblPesquisar";
-            lblPesquisar.Size = new Size(60, 15);
+            lblPesquisar.Size = new Size(73, 20);
             lblPesquisar.TabIndex = 22;
             lblPesquisar.Text = "Pesquisar:";
             // 
             // txtPesquisar
             // 
-            txtPesquisar.Location = new Point(107, 199);
-            txtPesquisar.Margin = new Padding(3, 2, 3, 2);
+            txtPesquisar.Location = new Point(131, 256);
             txtPesquisar.Name = "txtPesquisar";
-            txtPesquisar.Size = new Size(110, 23);
+            txtPesquisar.Size = new Size(125, 27);
             txtPesquisar.TabIndex = 23;
             txtPesquisar.TextChanged += txtPesquisar_TextChanged;
             // 
             // txtCodPet
             // 
-            txtCodPet.Location = new Point(-5, 444);
-            txtCodPet.Margin = new Padding(3, 2, 3, 2);
+            txtCodPet.Location = new Point(-6, 592);
             txtCodPet.Name = "txtCodPet";
             txtCodPet.ReadOnly = true;
-            txtCodPet.Size = new Size(10, 23);
+            txtCodPet.Size = new Size(11, 27);
             txtCodPet.TabIndex = 24;
             // 
             // Cadastrar
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.background;
-            ClientSize = new Size(784, 461);
+            ClientSize = new Size(882, 553);
             Controls.Add(txtCodPet);
             Controls.Add(txtPesquisar);
             Controls.Add(lblPesquisar);
@@ -324,7 +308,6 @@
             Controls.Add(lblPeso);
             Controls.Add(lblRaca);
             Controls.Add(lblNome);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Cadastrar";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cadastrar";
