@@ -56,7 +56,7 @@ imagem varchar(50)
 );
 
 create table tbExames(
-codExames int primary key auto_increment,
+codExame int primary key auto_increment,
 dataExame datetime,
 diagnostico varchar(50),
 descricao varchar(50),
